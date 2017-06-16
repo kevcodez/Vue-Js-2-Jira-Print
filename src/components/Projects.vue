@@ -1,5 +1,5 @@
 <template>
-  <div id="configuration" v-if="projects != null" class="container-fluid">
+  <div id="projects" v-if="projects != null" class="container-fluid">
     <table class="table">
       <thead>
         <tr>

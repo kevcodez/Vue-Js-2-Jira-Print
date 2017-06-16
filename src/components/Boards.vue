@@ -1,5 +1,5 @@
 <template>
-  <div id="sprints" v-if="boards != null" class="container-fluid">
+  <div id="boards" v-if="boards != null" class="container-fluid">
     <table class="table">
       <thead>
       <tr>

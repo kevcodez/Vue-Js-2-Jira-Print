@@ -38,7 +38,6 @@
 
       this.jiraService.findSprints(self.boardId).then(sprints => {
         self.sprints = sprints
-        console.log(sprints)
 
         self.sprints.sort(function (sprint1, sprint2) {
           return sprint2.startDate - sprint1.startDate
