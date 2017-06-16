@@ -1,0 +1,29 @@
+$color-header: #4DAC71;
+$color-primary: #345995;
+$color-shopping-cart-background: #EEE;
+
+#header {
+  width: 100%;
+  background-color: $color-header;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  border-color: $color-primary;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.focus {
+    box-shadow: none;
+  }
+}
+
+select:active, select:focus {
+  border: 1px solid rgba(0, 0, 0, .15);
+}
+
